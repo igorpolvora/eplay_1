@@ -7,7 +7,7 @@ import carrinho from '../../assets/images/carrinho.svg'
 const Header = () => (
   <HeaderBar>
     <div>
-      <Link to='./'>
+      <Link to="./">
         <img src={logo} alt="EPLAY" />
       </Link>
       <nav>
@@ -24,7 +24,7 @@ const Header = () => (
         </Links>
       </nav>
     </div>
-    <LinkCart href='#'>
+    <LinkCart href="#">
       0 - produto(s)
       <img src={carrinho} alt="Carrinho" />
     </LinkCart>

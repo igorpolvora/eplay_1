@@ -1,4 +1,4 @@
-import { ButtonContainer, ButtonLink } from "./styles"
+import { ButtonContainer, ButtonLink } from './styles'
 
 type Props = {
   type: 'button' | 'link'
@@ -15,7 +15,7 @@ const Button = ({ type, title, to, onClick, children }: Props) => {
         {children}
       </ButtonContainer>
     )
-  } 
+  }
 
   return (
     <ButtonLink to={to as string} title={title}>

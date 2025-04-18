@@ -29,4 +29,3 @@ export const GlobalCss = createGlobalStyle`
     margin: 0 auto;
   }
 `
-

@@ -7,7 +7,7 @@ class Game {
   title: string
   id: number
 
-  constructor (
+  constructor(
     id: number,
     category: string,
     description: string,

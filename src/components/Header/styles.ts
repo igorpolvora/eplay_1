@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { cores } from '../../styles';
+import styled from 'styled-components'
+import { cores } from '../../styles'
 
 export const HeaderBar = styled.header`
   background-color: ${cores.cinza};
@@ -11,7 +11,7 @@ export const HeaderBar = styled.header`
   justify-content: space-between;
 
   a {
-    color: ${cores.branca}; 
+    color: ${cores.branca};
     text-decoration: none;
     font-weight: bold;
   }
@@ -20,7 +20,7 @@ export const HeaderBar = styled.header`
     align-items: center;
     display: flex;
   }
-`;
+`
 
 export const Links = styled.ul`
   display: flex;
@@ -28,13 +28,12 @@ export const Links = styled.ul`
   gap: 16px;
   justify-content: center;
   flex: 1;
-`;
+`
 
 export const LinkItem = styled.li`
-
   text-align: center;
   min-width: max-content;
-`;
+`
 
 export const LinkCart = styled.a`
   display: flex;
@@ -43,4 +42,4 @@ export const LinkCart = styled.a`
   img {
     margin-left: 16px;
   }
-`;
+`
